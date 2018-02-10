@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NePark</string>
+    <string name="your_location">YOUR LOCATION:</string>
+    <string name="parking_range">PARKING RANGE:</string>
+    <string name="dharan">Dharan</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="range_in_km">RANGE IN KM</string>
+</resources>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2006 The Android Open Source Project
+
+         Licensed under the Apache License, Version 2.0 (the "License");
+         you may not use this file except in compliance with the License.
+         You may obtain a copy of the License at
+
+              http://www.apache.org/licenses/LICENSE-2.0
+
+         Unless required by applicable law or agreed to in writing, software
+         distributed under the License is distributed on an "AS IS" BASIS,
+         WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+         See the License for the specific language governing permissions and
+         limitations under the License.
+    -->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90CAF9"
+
+    tools:context="np.com.nepark.nepark.MainActivity">
+
+
+
+
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/parkingLot"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#90CAF9"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:text="Nepal park"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="#212121"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_below="@+id/parkingLot"
+        android:layout_toLeftOf="@+id/available"
+        android:layout_toStartOf="@+id/available"
+        android:background="#90CAF9"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:text="Available:"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:textColor="#212121"
+        android:textStyle="bold"
+        tools:ignore="UnknownId" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignLeft="@+id/parkingLot"
+        android:layout_alignStart="@+id/parkingLot"
+
+        android:layout_below="@+id/parkingLot"
+        android:background="#90CAF9"
+        android:text="Location"
+        android:textColor="#212121"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/rpm"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/parkingLot"
+        android:layout_marginLeft="140dp"
+        android:background="#90CAF9"
+        android:text="RPH:Rs"
+
+        android:textColor="#212121"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/parkingLot"
+        android:layout_marginLeft="205dp"
+
+
+        android:text="100"
+        android:textColor="#212121"
+
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/available"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/parkingLot"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+
+        android:text="10"
+        android:textColor="#212121"
+
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="5dp"
+       android:layout_below="@+id/available"
+       android:background="#212121"
+       android:id="@+id/view"
+       />
+
+
+
+
+
+
+</RelativeLayout>
