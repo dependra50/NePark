@@ -6,7 +6,7 @@
 __nePark__ is a system designed to address the problem of vehicle parking in busy cities with limited availability of parking space. It helps vehicle owners by helping to find the parking space nearest to his/her location.
 <br>
 This system has two parts. 
-- A __web based platform__ for the owners of parking space (parking lot) to register their parking space into the system and to monitor the occupancy of theit parking lot.<a href="https://github.com/xitish/nePark-Smart-Parking">See the Android Application repo</a>
+- A __web based platform__ for the owners of parking space (parking lot) to register their parking space into the system and to monitor the occupancy of theit parking lot. <a href="https://github.com/xitish/nePark-Smart-Parking">See the Web Platform repo</a>
 - An __android application__ is provided to the vehicle owners to quickly locate a parking lot nearest to their current location. 
 
 ## Working
